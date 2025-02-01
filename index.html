@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket League</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Cricket League</h1>
+        <p>Stay updated with match schedules and register as a player!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#schedule">Match Schedule</a></li>
+            <li><a href="#stats">Player Stats</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <section id="schedule">
+        <h2>Upcoming Matches</h2>
+        <table>
+            <tr>
+                <th>Match</th>
+                <th>Teams</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>Match 1</td>
+                <td>India vs Australia</td>
+                <td>Feb 10, 2025</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>Match 2</td>
+                <td>England vs South Africa</td>
+                <td>Feb 12, 2025</td>
+                <td>London</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="stats">
+        <h2>Top Players</h2>
+        <ul>
+            <li><b>Virat Kohli</b> - 12000 Runs</li>
+            <li><b>Steve Smith</b> - 9500 Runs</li>
+            <li><b>Babar Azam</b> - 8700 Runs</li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Player Registration</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="team">Select Team:</label>
+            <select id="team" name="team">
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="england">England</option>
+            </select>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cricket League | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
